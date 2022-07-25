@@ -1,5 +1,5 @@
 body{
-    background-color: #1D4242;
+    background-color: #694873;
 }
 #all{
     display: flex;
@@ -10,7 +10,7 @@ body{
     justify-content: center;
 }
 .all{
-    background-color: #D4F4DD;
+    background-color: #E2EF70;
     border-radius: 5px;
     padding: 1%;
     box-shadow: 8px 8px 15px rgb(34, 33, 33);
@@ -36,11 +36,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     font-family: fontX;
-    color: #2c162c;
+    color: #694873;
 }
 .titlePage{
     font-family: fontX;
-    color: #FFC145;
+    color: #E2EF70;
     text-shadow: 8px 8px 15px rgb(34, 33, 33);
     font-size: 19px;
 }
@@ -58,14 +58,14 @@ body{
 .input{
     border-radius: 8px;
     border-style:solid;
-    border-width: 1px;
-    border-color: rgb(134, 134, 134);
-    box-shadow: 8px 8px 15px rgb(102, 100, 100);
+    border-width: 2px;
+    border-color: #694873;
+    box-shadow: 8px 8px 15px #694873;
     height: 30px;
 }
 .input::placeholder{
     text-align: center;
-    color: #2c162c;
+    color: #241827;
 }
 
 /**/
@@ -77,14 +77,14 @@ body{
     background-color: white;
     border-radius: 10px;
     border-style:solid;
-    border-width:1px;
-    border-color: rgb(134, 134, 134);
-    box-shadow: 8px 8px 18px rgb(102, 100, 100);
+    border-width:1.5px;
+    border-color: #694873;
+    box-shadow: 8px 8px 18px #694873cc;
  
     margin-top: 2%;
     font-family: fontX;
     width: 60vh;   
-    color: #2c162c;
+    color: #241827;
 
 }
 #btnConfirmar{
@@ -92,14 +92,14 @@ body{
     background-color: white;
     border-radius: 10px;
     border-style: solid;
-    border-width: 1px;
-    border-color: rgb(134, 134, 134);
-    box-shadow: 8px 8px 18px rgb(102, 100, 100);
+    border-width: 1.5px;
+    border-color: #694873;
+    box-shadow: 8px 8px 18px #694873cc;
     
     margin-top: 10%;
     font-family: fontX;
     width: 60vh;
-    color: #2c162c;
+    color: #241827;
 }
 
 /**/
