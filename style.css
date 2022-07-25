@@ -1,18 +1,22 @@
 body{
-    background-color: #694873;
+    background-color: #FF6978;
 }
 #all{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 4%;
-    height: 80vh;
+    height: 100vh;
     justify-content: center;
+    background-color: #4B296B;
+    box-shadow: 8px 8px 15px rgb(34, 33, 33);
+    border-radius: 5px;
 }
 .all{
     background-color: #E2EF70;
     border-radius: 5px;
     padding: 1%;
+    height: auto;
     box-shadow: 8px 8px 15px rgb(34, 33, 33);
     display: flex;
     flex-direction: column;
@@ -44,6 +48,7 @@ body{
     text-shadow: 8px 8px 15px rgb(34, 33, 33);
     font-size: 19px;
 }
+
 /*INPUTS*/
 #nome{
     display: inline-block;
@@ -81,10 +86,12 @@ body{
     border-color: #694873;
     box-shadow: 8px 8px 18px #694873cc;
  
-    margin-top: 2%;
+    margin-top: 3%;
     font-family: fontX;
-    width: 60vh;   
+    width: 140px;   
     color: #241827;
+    text-align: center;
+    
 
 }
 #btnConfirmar{
@@ -96,10 +103,11 @@ body{
     border-color: #694873;
     box-shadow: 8px 8px 18px #694873cc;
     
-    margin-top: 10%;
+    margin-top: 15%;
     font-family: fontX;
-    width: 60vh;
+    width: 140px;  
     color: #241827;
+    text-align: center;
 }
 
 /**/
@@ -156,6 +164,7 @@ body{
     color: darkviolet;
     margin: 10px;
 }
+
 
 /**/
 
